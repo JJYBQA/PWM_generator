@@ -173,5 +173,14 @@ void EXTI4_15_IRQHandler(void)
 }
 
 /* USER CODE BEGIN 1 */
+void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
+{
+  /* USER CODE BEGIN Callback 0 */
+  if(GPIO_Pin == PH_A_Pin)
+  {
+    
+  }
 
+  /* USER CODE END Callback 0 */
+}
 /* USER CODE END 1 */

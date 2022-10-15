@@ -32,3 +32,5 @@ pwm_generator\main.o: ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim.h
 pwm_generator\main.o: ../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_tim_ex.h
 pwm_generator\main.o: ../Inc/tim.h
 pwm_generator\main.o: ../Inc/gpio.h
+pwm_generator\main.o: ./Hardware/OLED.h
+pwm_generator\main.o: ./Hardware/WS2812.h

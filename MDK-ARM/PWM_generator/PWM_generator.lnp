@@ -21,6 +21,8 @@
 "pwm_generator\stm32f0xx_hal_flash_ex.o"
 "pwm_generator\stm32f0xx_hal_exti.o"
 "pwm_generator\system_stm32f0xx.o"
+"pwm_generator\oled.o"
+"pwm_generator\ws2812.o"
 --strict --scatter "PWM_generator\PWM_generator.sct"
 --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers

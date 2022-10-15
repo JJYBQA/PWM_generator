@@ -8,6 +8,7 @@
                 "d:\\stm32\\STMCUBEMX_TEXT\\PWM_generator\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\Legacy",
                 "d:\\stm32\\STMCUBEMX_TEXT\\PWM_generator\\Drivers\\CMSIS\\Device\\ST\\STM32F0xx\\Include",
                 "d:\\stm32\\STMCUBEMX_TEXT\\PWM_generator\\Drivers\\CMSIS\\Include",
+                "d:\\stm32\\STMCUBEMX_TEXT\\PWM_generator\\MDK-ARM\\Hardware",
                 "D:\\keil5\\ARM\\ARMCC\\include",
                 "D:\\keil5\\ARM\\ARMCC\\include\\rw",
                 "d:\\stm32\\STMCUBEMX_TEXT\\PWM_generator\\MDK-ARM",

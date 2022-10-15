@@ -23,7 +23,8 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+#include "OLED.h"
+#include "WS2812.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -64,7 +65,7 @@ void SystemClock_Config(void);
 int main(void)
 {
   /* USER CODE BEGIN 1 */
-
+  
   /* USER CODE END 1 */
 
   /* MCU Configuration--------------------------------------------------------*/
@@ -87,6 +88,11 @@ int main(void)
   MX_GPIO_Init();
   MX_TIM1_Init();
   /* USER CODE BEGIN 2 */
+ HAL_TIM_PWM_Start(&htim1,TIM_CHANNEL_1);
+ __HAL_TIM_SetCompare(&htim1,TIM_CHANNEL_1,20000);
+  OLED_Init();
+   OLED_ShowString(1,1,"OLED");
+  
 
   /* USER CODE END 2 */
 

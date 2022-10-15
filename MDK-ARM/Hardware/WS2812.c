@@ -229,11 +229,11 @@ void WS2812B_MovePixel(uint8_t dir)
 		Copy_Color(&temp,&PixelBuf[0]);
 
 		i = 0;
-		while(i < (PIXEL_NUM-1))
-		{
-			Copy_Color(&PixelBuf[i],&PixelBuf[i+1]);
-			i++;
-		}
+//		while(i < (PIXEL_NUM-1))
+//		{
+//			Copy_Color(&PixelBuf[i],&PixelBuf[i+1]);
+//			i++;
+//		}
 		Copy_Color(&PixelBuf[PIXEL_NUM-1],&temp);
 	}
 }
